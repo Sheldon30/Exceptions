@@ -6,7 +6,6 @@ public class Product {
     protected int price;
 
 
-
     public Product(int id, String title, int price) {
         this.id = id;
         this.title = title;
@@ -26,6 +25,7 @@ public class Product {
     public int hashCode() {
         return Objects.hash(id, title, price);
     }
+
     public void setTitle(String title) {
         this.title = title;
     }

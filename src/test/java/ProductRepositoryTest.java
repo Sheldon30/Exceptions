@@ -20,6 +20,7 @@ public class ProductRepositoryTest {
 
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void testNegative() {
         ShopRepository repo = new ShopRepository();
